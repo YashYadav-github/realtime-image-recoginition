@@ -1,0 +1,108 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
+}
+
+.heading{
+    font-size: 25px;
+    width: 100%;
+    margin: 0;
+    /* box-shadow: 5px 5px 5px gray; */
+    animation-name: bounce;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+
+
+.heading2{
+    float: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: blueviolet;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.heading3{
+    background-color: orange;
+    font-size: 25px;
+}
+
+.heading3:hover{
+    background-color: rgb(199, 139, 27);
+}
+
+.result_para_tag{
+    /* float: left; */
+    font-size: 20px;
+    /* box-shadow: 5px 5px 5px orangered; */
+}
+
+.copyright_footer{
+    bottom: 0;
+    font-size: 15px;
+    background-color: grey;
+    position: fixed;
+    line-height: 3;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+canvas{
+    border: 5px solid white;
+    /* box-shadow: 5px 5px 5px grey; */
+    border-radius: 20px;
+    margin-top: 160px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+p{
+    animation-name: slidein;
+    animation-duration: 3s;
+}
+
+@keyframes example {
+    0%{
+        box-shadow: 5px 5px 5px red;
+    }
+    50%{
+        box-shadow:  5px 5px 5px yellow;
+    }
+
+    100%{
+        box-shadow: 5px 5px 5px red;
+    }
+}
+/* @keyframes example {
+    0%{
+        border-radius: 5px 5px 5px red;
+    }
+
+    50%{
+        border-radius: 5px 5px 5px yellow;
+    }
+
+    100%{
+        border-radius: 5px 5px 5px red;
+        
+    }
+} */
+
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+/* https://teachablemachine.withgoogle.com/models/mgk3lQ2Mu/ */
